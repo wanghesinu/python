@@ -37,3 +37,5 @@ for t in triangles():
     n = n + 1
     if n == 10:
         break
+
+##### github test #####
