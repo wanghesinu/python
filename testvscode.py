@@ -1,4 +1,6 @@
-a = 1;
-b = 2;
-c = a+b;
+
+int a = 1;
+int b = 2;
+int c = a+b;
+
 print(c);
