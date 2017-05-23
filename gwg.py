@@ -18,7 +18,6 @@ if __name__ == "__main__":
         '2017-06-18', '%Y-%m-%d')
     delta = dead_line - now
     per = (30 - delta.days) / 30 * 100
-    print("  all_count : %s" % count)
-    print("  left_days : %d" % (30 - delta.days))
-    print("remain_days : %d" % delta.days)
-    print("    percent : %.2f%%" % per)
+    print("请愿人数 : %s 人" % count)
+    print("剩余天数 : %d 天" % delta.days)
+    print("时间进度 : %.2f%%" % per)
